@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//Program to tell whether you failed or passed
+//Program to tell whether you failed or passed the exam
 
 int main()
 {

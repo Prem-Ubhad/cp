@@ -1,4 +1,7 @@
 #include <stdio.h>
+
+    // Program to give grade to the student according to the marks obtained
+
 void premusingswitch(int marks)
 {
     switch (marks)
@@ -16,7 +19,7 @@ void premusingswitch(int marks)
         printf("Your grade is D\n");
         break;
     case 101 ... 10000000:
-        printf("Enter valide value\n");
+        printf("Please enter valid input\n");
         break;
 
     default:
@@ -44,7 +47,7 @@ void premusinginelse(int marks)
     }
     else if (marks > 100)
     {
-        printf("Plese enter valid input\n");
+        printf("Please enter valid input\n");
     }
 
     else
@@ -55,11 +58,10 @@ void premusinginelse(int marks)
 int main()
 {
     int marks;
-    // Program to give grade to the student according to the marks obtained
 
     printf("Enter the marks obtained = ");
     scanf("%d", &marks);
-    premusingswitch(marks);
-    // premusinginelse(marks);
+    // premusingswitch(marks);
+    premusinginelse(marks);
     return 0;
 }
