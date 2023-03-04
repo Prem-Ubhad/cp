@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h> git config --global user.user "Prem-Ubhad"
+#include <time.h>
 
 
 int main()
