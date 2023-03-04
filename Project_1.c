@@ -8,8 +8,7 @@ int main()
     int number, guess, nguesses = 1;
     srand(time(0));
     number = rand() % 100 + 1;
-    printf("This is random number %d\n", number);
-
+    
     do
     {
         printf("Guess a number between 1 to 100\n");
