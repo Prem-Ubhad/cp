@@ -1,9 +1,25 @@
-#include<stdio.h>
-#include<math.h>
-int main(){
-    int i;
-    printf("Enter the side \n");
-    scanf("%d",&i);
-    printf("The are of square with side %d = %f",i,pow(i,2));
+#include <stdio.h>
+
+void printpattern(int x);
+
+int main()
+{
+    int i = 4;
+    printpattern(i);
     return 0;
+}
+
+void printpattern(int x)
+{
+    if (x == 1)
+    {
+        printf("*\n");
+        return;
     }
+    printpattern(x - 1);
+    for (int n = 0; n < (2 * x - 1); n++)
+    {
+        printf("*");
+    }
+    printf("\n");
+}
