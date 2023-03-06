@@ -6,4 +6,4 @@ int main(){
     scanf("%d",&i);
     printf("The are of square with side %d = %f",i,pow(i,2));
     return 0;
-}
+    }
