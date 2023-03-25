@@ -1,7 +1,16 @@
 #include <stdio.h>
 
 // Program to find table of any number
+int Table(int i,int r,int n){
+ while (i <= r)
+    {
+        printf("%d x %d = %d\n", n, i, n * i);
+        i++;
+        
+    }
+    return 0;
 
+}
 int main()
 {
     int i = 1;
@@ -12,12 +21,8 @@ int main()
 
     printf("Enter the range \n");
     scanf("%d", &r);
-
-    while (i <= r)
-    {
-        printf("%d x %d = %d\n", n, i, n * i);
-        i++;
-    }
+  Table(i,r,n);
+    
 
     return 0;
 }
