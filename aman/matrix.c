@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-    int x=4,y=4;
+    int x=3,y=3;
     int first[x][y],second[x][y],resultes[x][y];
     printf("Enter the first matrix: \n");
     for (int i = 0; i < x; i++)
@@ -21,6 +21,15 @@ int main(){
             printf("second[%d][%d]= ",i,j);
             scanf("%d",&second[i][j]);
         }
+    // for (int i = 0; i < x; i++)
+    // {
+    //     for (int j = 0; j < y; j++)
+    //     {
+    //         printf("%d\t",resultes[i][j]);
+            
+    //     }
+    //     printf("\n");
+    // }
         
     }
     for (int i = 0; i < x; i++)
