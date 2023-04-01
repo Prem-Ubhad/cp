@@ -6,8 +6,10 @@ void value(int a, int *b);
 
 int main()
 {
-    int x = 10;
+    int x;
     int y;
+    printf("Enter the value of x : ");
+    scanf("%d",&x);
     value(x, &y);
     printf("Ten times the value of x is %d", y);
     return 0;

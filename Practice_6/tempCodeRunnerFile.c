@@ -1,0 +1,1 @@
+ printf("The adress of i is %u\n", &i);
