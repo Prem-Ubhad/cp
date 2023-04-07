@@ -11,6 +11,7 @@ int main()
     //         printf("\n");
 
     // }
+    
     int i, j, k = 0;
     for (int i = 1; i <= 5; ++i , k = 0)
     {
